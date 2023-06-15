@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "generative-ai-2023",
+    "private_key_id": "634ff97454896548790da8712dcb3e2a81f21fb6",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDXzCvk7Ium3Q8W\nCmRpyD2YoqKQymrJcMHa8HQVuS7mwQzIByNIRDmDOwDYb2wYEoMvitD21ikdaNiW\nBVwOzNL/bLDl4Njd1Iy5aI+VTWCkgaIbHJgxpoJN6xxIq82GQQK9Zg5RNCxjSfQv\n6uTFQ/uWbJkWEUpyqeRH2RNRDwnBpXZImmnr1pzsmHOqgrFXWQi8eVTx2a2YC1dJ\nAX20UjEwDOls/BbMqmJXIgZ2I+hc7XUPN0dyekzALMsx3du8rzEKLCA7T3OH+kqC\ngl8A82AIS/KPIQZ3ua5S640Kkx0iSkyHn69B8qP/3Rus8F/sHtNt6Hapj2eGrLGu\n1n+kheFjAgMBAAECggEACfAnBK5uH1umh7XSelqp7N8Z4dV98H6nDC2vCEG/KrUG\nS9SkUn4t2zYlllIfUMZ9eybcnm7YyuLFYrdReNmu9+tqBCmEOJxtdKvKPQPTaRAS\nm/FdAvWvojtV0fTzjJ9u1bPJrKyx70qnGmkqFaRJWwaaUD1bR9zncfWfIZ2x2H9F\naV1TcFmyEm3Po0OAebmG1YwM4oQl30vaFIBWe5Mz5PyOHNArqf+x2ortKjMPyMsF\nUyTPtH9HINytpr3nzDW2t8UkGP53MsIAu53xntmoqjvtop9eXwUjyiVO+B++0BFf\nbYqaM8iY323b2EQfzE6wp5oUIkzPbdgM9Wnwlo4y+QKBgQD2y5KgI10Svm18ay1W\nlGG5C7UYpMWp/4bf1PkoDj228LmF/IplZkkmHQx6KiSvLKshf02FiOkR5LqIqXK3\nUUxnUnsMX89w46VTs5RlgPnMzHMo4O1lYzdSlOjh+uMehVczbW0hOf2wmlKi7O2a\nCUaqS3PiUqYG4u7AotFqNW5H6QKBgQDf2KEzic9TzOO5ygeyKcgPzQV0G1fAhbJd\nU7zC9eEtpzvxB1QXw0/RPCcS7/2kNwwLwzBwcfV2RpNsWxPcBB3vRAmydXTh9Af9\nsmMMThAmZ7DSDyZ387YZszOkT0i3wxauJudbCSzrI303cUIkWlBeGAfypBovmcqf\n7x58sC5bawKBgQCo+emCy7PGSawdLCT2ytG+KU3teaP9KX/ncaLG0jlfMKNWIfuA\nQfCDsBAC9Sf46NSjMs6ZR4yNO9acC6kH6xotBERLzK3z1Wo1TRemCBEBMFsI+jiQ\n2sXePSbW0zj+hL2X8Kxvu4z/hipec2qbtQ41O0Q1CfGzdV2Td+d6mOrRQQKBgAbZ\nJM1j2PDyYsErWiLsPk+lcRZFQ+EC9hr+1daNGS+BX0cXd04mzolTMsrUhskAWiD9\n/rxh8CWHMTlua+QeSCAqz7Ui/Mlw4tGzJG6a8MmMAI/coMuorBiLL/hF6K6ejFIV\npJxXYoVrF4ibsW9VSAIo8A1PUfHE3bsY4LDl3vUzAoGAf2EKVGaIvelWLZOZJNeb\nZ1rL2XKaBZz69QbmkqhVIzp5gu9rbuvxqs6m1qDeWzsU29c8/D2yQAlBHoBX2MtK\nLY6giCnnQv8d6kuNfb1zj0J5ZnKMmR4+qbj3TZ59r0RRyFZi4/oFJxGCW6bZZWTq\nV39EsNFKl4L62t9JHhPfWyk=\n-----END PRIVATE KEY-----\n",
+    "client_email": "generative-servier-account@generative-ai-2023.iam.gserviceaccount.com",
+    "client_id": "115382748500690721034",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/generative-servier-account%40generative-ai-2023.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  

@@ -5,11 +5,8 @@ from google.cloud import vision
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'google_key.json'
 
-from google.cloud import vision
 
-photo_path = 
-
-def run_quickstart(photo_path) -> vision.EntityAnnotation:
+def detect_image_features(photo_path) -> vision.EntityAnnotation:
     """Provides a quick start example for Cloud Vision."""
 
     # Instantiates a client
@@ -32,13 +29,16 @@ def run_quickstart(photo_path) -> vision.EntityAnnotation:
     mylist=[]
     for label in labels:
         mylist.append(label.description)
-    myobject={'itemlist': mylist}
     
     mystring = ""
     for item in mylist:
         mystring = mystring + item+", "
     mystring=mystring[:-1]
-    print(mystring)
-    return labels
-if __name__ == "__main__":
-    run_quickstart()
+    
+    results = {
+        'labels': labels,
+        'string_labels': mystring,
+        'list_lables': mylist
+    }
+
+    return results

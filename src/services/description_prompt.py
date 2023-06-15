@@ -1,9 +1,9 @@
 import openai
 
 def description_prompt(characteristics):
-    var ini_prompt = "Filter the following list of words to only items that are nouns: " + characteristics
+    ini_prompt = "Filter the following list of words to only items that are nouns: " + characteristics
 
-    var response = openai.ChatCompletion.create(
+    response = openai.ChatCompletion.create(
       model="gpt-3.5-turbo",
       messages=[
             {"role": "user", "content": ini_prompt}, 
