@@ -2,3 +2,4 @@ google-cloud-vision
 PyYaml
 Flask
 Flask_sqlalchemy
+openai

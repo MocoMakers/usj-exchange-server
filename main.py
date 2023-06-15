@@ -37,12 +37,13 @@ def fetchDescription():
     if request.method == 'POST':
       posted_data = json.loads(request.data)
       image_string = request.files['image']
+      image_name = posted_data['image_name']
       save_path = app.config['UPLOAD_FOLDER']+image_name
 
       with open(save_path, "wb") as fh:
             #saves files
             fh.write(base64.decodebytes(image_string))
-      image_name = posted_data['image_name']
+      
 
       label_results = vision_service.detect_image_features(save_path)
       labelString = label_results['string_labels']
