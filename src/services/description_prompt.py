@@ -1,4 +1,6 @@
+import os
 import openai
+openai.api_key = "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"
 
 def description_prompt(characteristics):
     ini_prompt = "Filter the following list of words to only items that are nouns: " + characteristics
